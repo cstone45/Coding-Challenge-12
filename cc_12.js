@@ -12,3 +12,11 @@ Revenue.appendChild(newMetric);
 const allMessages = document.querySelectorAll(`.metric-card`);
 const arrayOfNodes = Array.from(allMessages);
 allMessages.forEach(background-color: "Light-Green");
+
+//Task 3: Dynamic Inventory Management - Adding and Removing Items
+const newProduct = document.createElement(`li`)
+newProduct.textContent = "smartwatch";
+setAttribute(class, "product-item");
+newProduct.appendChild(newElement);
+const oldProduct = document.removeElement.uponClick(`li`);
+oldProduct.removeChild(inventory);
